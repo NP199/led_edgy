@@ -56,7 +56,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|151020000|95430000|c021873f-0214-48fc-baf4-da2a578b2b4c|d9ea0e73-10d3-48df-8d52-6136e565c922",
+        "clearance|151020000|97610000|f052f35f-01ee-42ce-8d1a-e94519fa4813|d9aaf3cb-16fd-4568-bc83-83c5ec4b6894",
+        "clearance|153000000|96390000|d9ea0e73-10d3-48df-8d52-6136e565c922|d9aaf3cb-16fd-4568-bc83-83c5ec4b6894"
+      ],
       "meta": {
         "version": 2
       },
@@ -107,7 +111,7 @@
         "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.19999999999999998,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -407,7 +411,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
+        "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
