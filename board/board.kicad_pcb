@@ -711,7 +711,7 @@
 
   (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" (layer "B.Cu")
     (tedit 0) (tstamp 426f3737-3fea-4729-9954-5e08fb84ef28)
-    (at 132.5 119.95 180)
+    (at 148.65 99.94 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (property "Sheetfile" "board.kicad_sch")
