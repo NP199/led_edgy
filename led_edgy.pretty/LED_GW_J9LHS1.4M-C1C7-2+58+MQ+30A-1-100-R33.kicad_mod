@@ -1,0 +1,249 @@
+
+(footprint LED_GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33 (layer F.Cu) (tedit 646A78FB)
+  (descr "")
+  (attr smd)
+  (fp_text reference REF** (at 0.635 -4.445 0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (fp_text value LED_GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33 (at 24.765 4.445 0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (pad 8 smd rect (at 1.81 -1.75) (size 1.68 0.9) (layers F.Cu))
+  (pad 5 smd rect (at 1.81 1.75) (size 1.68 0.9) (layers F.Cu))
+  (pad 1 smd custom (at -1.81 -1.75) (size 0.5 0.5) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.84 -0.45)
+          (xy 2.48 -0.45)
+          (xy 2.48 0.66)
+          (xy 0.185 0.66)
+          (xy -0.84 0.33)
+        ) (width 0.01)
+      )
+    )
+  )
+  (pad 4 smd custom (at -1.81 1.75) (size 0.5 0.5) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.84 0.45)
+          (xy 2.48 0.45)
+          (xy 2.48 -0.66)
+          (xy 0.185 -0.66)
+          (xy -0.84 -0.33)
+        ) (width 0.01)
+      )
+    )
+  )
+  (pad 7 smd custom (at 1.81 -0.565) (size 0.5 0.5) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -2.41 -0.285)
+          (xy -0.84 -0.285)
+          (xy -0.84 -0.435)
+          (xy 0.84 -0.435)
+          (xy 0.84 0.435)
+          (xy -2.41 0.435)
+        ) (width 0.01)
+      )
+    )
+  )
+  (pad 6 smd custom (at 1.81 0.565) (size 0.5 0.5) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -2.41 0.285)
+          (xy -0.84 0.285)
+          (xy -0.84 0.435)
+          (xy 0.84 0.435)
+          (xy 0.84 -0.435)
+          (xy -2.41 -0.435)
+        ) (width 0.01)
+      )
+    )
+  )
+  (pad 2 smd custom (at -1.81 -0.5) (size 0.5 0.5) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.91 -0.29)
+          (xy 0.91 0.35)
+          (xy -0.84 0.35)
+          (xy -0.84 -0.5)
+          (xy 0.01 -0.29)
+        ) (width 0.01)
+      )
+    )
+  )
+  (pad 3 smd custom (at -1.81 0.5) (size 0.5 0.5) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.91 0.29)
+          (xy 0.91 -0.35)
+          (xy -0.84 -0.35)
+          (xy -0.84 0.5)
+          (xy 0.01 0.29)
+        ) (width 0.01)
+      )
+    )
+  )
+  (fp_poly
+    (pts
+      (xy -2.65 -2.2)
+      (xy 0.67 -2.2)
+      (xy 0.67 -1.09)
+      (xy -1.625 -1.09)
+      (xy -2.65 -1.42)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -2.6 -2.15)
+      (xy 0.62 -2.15)
+      (xy 0.62 -1.14)
+      (xy -1.63 -1.14)
+      (xy -2.6 -1.45)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -2.65 2.2)
+      (xy 0.67 2.2)
+      (xy 0.67 1.09)
+      (xy -1.625 1.09)
+      (xy -2.65 1.42)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -2.6 2.15)
+      (xy 0.62 2.15)
+      (xy 0.62 1.14)
+      (xy -1.63 1.14)
+      (xy -2.6 1.45)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -2.6 -0.19)
+      (xy -0.95 -0.19)
+      (xy -0.95 -0.73)
+      (xy -1.8 -0.73)
+      (xy -2.6 -0.93)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.9 -0.79)
+      (xy -0.9 -0.15)
+      (xy -2.65 -0.15)
+      (xy -2.65 -1.0)
+      (xy -1.8 -0.79)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -2.6 0.19)
+      (xy -0.95 0.19)
+      (xy -0.95 0.73)
+      (xy -1.8 0.73)
+      (xy -2.6 0.93)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.9 0.79)
+      (xy -0.9 0.15)
+      (xy -2.65 0.15)
+      (xy -2.65 1.0)
+      (xy -1.8 0.79)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.97 -2.2)
+      (xy 2.65 -2.2)
+      (xy 2.65 -1.3)
+      (xy 0.97 -1.3)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.02 -2.15)
+      (xy 2.6 -2.15)
+      (xy 2.6 -1.35)
+      (xy 1.02 -1.35)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.97 1.3)
+      (xy 2.65 1.3)
+      (xy 2.65 2.2)
+      (xy 0.97 2.2)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.02 1.35)
+      (xy 2.6 1.35)
+      (xy 2.6 2.15)
+      (xy 1.02 2.15)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.55 -0.8)
+      (xy 1.02 -0.8)
+      (xy 1.02 -0.95)
+      (xy 2.6 -0.95)
+      (xy 2.6 -0.18)
+      (xy -0.55 -0.18)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.6 -0.85)
+      (xy 0.97 -0.85)
+      (xy 0.97 -1.0)
+      (xy 2.65 -1.0)
+      (xy 2.65 -0.13)
+      (xy -0.6 -0.13)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.55 0.8)
+      (xy 1.02 0.8)
+      (xy 1.02 0.95)
+      (xy 2.6 0.95)
+      (xy 2.6 0.18)
+      (xy -0.55 0.18)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.6 0.85)
+      (xy 0.97 0.85)
+      (xy 0.97 1.0)
+      (xy 2.65 1.0)
+      (xy 2.65 0.13)
+      (xy -0.6 0.13)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_line (start -2.6 -2.5) (end 2.6 -2.5) (layer F.Fab) (width 0.127))
+  (fp_line (start 2.6 -2.5) (end 2.6 2.5) (layer F.Fab) (width 0.127))
+  (fp_line (start 2.6 2.5) (end -2.6 2.5) (layer F.Fab) (width 0.127))
+  (fp_line (start -2.6 2.5) (end -2.6 -2.5) (layer F.Fab) (width 0.127))
+  (fp_line (start -2.6 -2.52) (end 2.6 -2.52) (layer F.SilkS) (width 0.127))
+  (fp_line (start 2.6 2.52) (end -2.6 2.52) (layer F.SilkS) (width 0.127))
+  (fp_line (start -2.9 -2.75) (end 2.9 -2.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 2.9 -2.75) (end 2.9 2.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 2.9 2.75) (end -2.9 2.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -2.9 2.75) (end -2.9 -2.75) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center -3.3 -1.9) (end -3.2 -1.9) (layer F.SilkS) (width 0.2))
+  (fp_circle (center -3.3 -1.9) (end -3.2 -1.9) (layer F.Fab) (width 0.2))
+)

@@ -1438,7 +1438,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 02ab4736-fba1-4e6c-abef-aa7c088d94a7)
     (property "Reference" "J1" (id 0) (at 85.725 80.01 0))
-    (property "Value" "023_LED" (id 1) (at 85.725 82.55 0))
+    (property "Value" "osf.011" (id 1) (at 85.725 82.55 0))
     (property "Footprint" "on_edge:on_edge_2x05_device" (id 2) (at 77.47 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1508,7 +1508,7 @@
     (property "Reference" "J2" (id 0) (at 200.66 100.9649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "023_LED" (id 1) (at 200.66 103.5049 0)
+    (property "Value" "osf.011" (id 1) (at 200.66 103.5049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "on_edge:on_edge_2x05_host" (id 2) (at 199.39 86.36 0)
@@ -1549,7 +1549,7 @@
     (uuid a9ef1f92-a45b-4310-a6e9-4059abd051da)
     (property "Reference" "D1" (id 0) (at 143.51 68.58 0))
     (property "Value" "GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33" (id 1) (at 142.24 71.12 0))
-    (property "Footprint" "LED_GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33" (id 2) (at 138.43 100.33 0)
+    (property "Footprint" "GW_J9LHS1:LED_GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33" (id 2) (at 138.43 100.33 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://look.ams-osram.com/m/453412c53f0ce9cc/original/GW-J9LHS2-4M.pdf" (id 3) (at 138.43 100.33 0)
@@ -1600,13 +1600,13 @@
 
   (symbol_instances
     (path "/a9ef1f92-a45b-4310-a6e9-4059abd051da"
-      (reference "D1") (unit 1) (value "GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33") (footprint "LED_GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33")
+      (reference "D1") (unit 1) (value "GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33") (footprint "GW_J9LHS1:LED_GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33")
     )
     (path "/02ab4736-fba1-4e6c-abef-aa7c088d94a7"
-      (reference "J1") (unit 1) (value "023_LED") (footprint "on_edge:on_edge_2x05_device")
+      (reference "J1") (unit 1) (value "osf.011") (footprint "on_edge:on_edge_2x05_device")
     )
     (path "/6169c5fa-dc29-45cd-8d2f-b575e54f7735"
-      (reference "J2") (unit 1) (value "023_LED") (footprint "on_edge:on_edge_2x05_host")
+      (reference "J2") (unit 1) (value "osf.011") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/b72b6f4a-7489-40f2-bb90-d75ae01aa368"
       (reference "LOGO1") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen")
