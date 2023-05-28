@@ -370,7 +370,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 967d4f10-ecc3-4a59-a9eb-ba0a54d1901f)
     )
-    (fp_text value "GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33" (at -3.0475 7.315) (layer "F.Fab")
+    (fp_text value "GW_J9LHS1.4M-C1C7-2+58+MQ+30A-1-100-R33" (at -0.0875 8.15) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21e6da00-2bcd-49ca-91be-1e96676230ac)
     )
@@ -1077,6 +1077,9 @@
   (gr_arc (start 140 92) (mid 140.585786 90.585786) (end 142 90) (layer "Edge.Cuts") (width 0.05) (tstamp c7b5edd8-a0af-4f1b-8316-344c733181d6))
   (gr_line (start 169 101) (end 169 100.5) (layer "Edge.Cuts") (width 0.05) (tstamp cd47d2d7-c132-4ebe-b0ca-8a2113bea612))
   (gr_line (start 140 92.5) (end 140 92) (layer "Edge.Cuts") (width 0.05) (tstamp d56fbee7-c212-47b2-88da-c107275bfe1d))
+  (gr_text "LED_edgy_v0.1rc" (at 158.425 101.95) (layer "F.SilkS") (tstamp 9e4de861-8c04-481c-9d32-61e0f56efa9b)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (segment (start 149.92 94.5) (end 149.71 94.71) (width 0.2) (layer "F.Cu") (net 1) (tstamp 0c6de0e1-1131-4772-a3d3-229398fcf212))
   (segment (start 151.02 94.5) (end 149.92 94.5) (width 0.2) (layer "F.Cu") (net 1) (tstamp b1bd602f-cc39-44a0-a402-5e698bf1a5b1))
